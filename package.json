@@ -1,0 +1,23 @@
+{
+  "name": "lx-simple-proxy",
+  "version": "1.0.0",
+  "description": "a simple http(s) proxy",
+  "main": "index.js",
+  "bin": {
+    "lx-simple-server": "./server.js",
+    "lx-simple-client": "./client.js"
+  },
+  "dependencies": {
+    "yargs": "^13.0.0-candidate.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "http proxy server"
+  ],
+  "author": "lx1412",
+  "license": "MIT"
+}
