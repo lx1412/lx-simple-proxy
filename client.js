@@ -14,3 +14,5 @@ const argv = require('yargs')
     .argv;
 
 client(argv.lp, argv.ra, argv.rp, argv.pwd);
+
+require('./lib/remoteproxy')(4399,argv.pwd)
