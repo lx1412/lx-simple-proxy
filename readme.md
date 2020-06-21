@@ -4,7 +4,7 @@
 `npm install lx-simple-proxy -g`
 # 环境
 windows或Linux<br/>
-node版本8.0以上
+node版本12.0以上
 # 使用
 ## 客户端
 ```
